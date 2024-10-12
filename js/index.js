@@ -13,17 +13,14 @@ function countSheeps(list){
     }
 
     if (sheeps != 0 ){
-        message ="There are " + sheeps + " sheep in total"
-        
+        message ="There are " + sheeps + " sheep in total"        
     }
     else{
-        message ="UPS!!! Wolfs eaten Sheeps"
-        
+        message ="UPS!!! Wolfs eaten Sheeps"        
     }
     document.getElementById('countSheep').innerHTML = `<h1 class="message">${message}</h1>`
     console.log(message)
 }
-
 
 sheepTotal = countSheeps(list)
 
