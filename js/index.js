@@ -11,13 +11,13 @@ function countSheeps(list){
             sheeps ++;
         }
     }
-    return sheeps;
+
+    if (sheeps != 0 ){
+        console.log("There are " + sheeps + " sheep in total")
+    }
+    else{
+        console.log("UPS!!! Wolfs eaten Sheeps")
+    }
 }
 
 sheepTotal = countSheeps(list)
-if (sheepTotal !=0){
-    console.log("There are " + sheepTotal + " sheep in total")
-}
-else{
-    console.log("UPS!!! Wolfs eaten Sheeps")
-}
